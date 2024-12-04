@@ -9,9 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        // background: "var(--background)",
+        // foreground: "var(--foreground)",
+        accent:"#FF8F9C",
+        blackish:"#1b1b1b"
       },
+      container:{
+        center:true,
+        padding:"15px"
+      }
     },
   },
   plugins: [],
